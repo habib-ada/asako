@@ -14,33 +14,37 @@
                 margin: 0;
                 padding: 0;
                 width: 100%;
-                display: table;
-                font-weight: lighter;
                 font-family: 'Source Sans Pro';
-                font-style: italic;
             }
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
+            .logo {
+                font-weight: bold;
             }
+            .main-menu {
 
-            .content {
-                text-align: center;
-                display: inline-block;
             }
-
-            .title {
-                font-size: 96px;
+            .menu li{
+                list-style: none;
+            }
+            header {
+                padding: 2rem;
+                background-color: #68F5F7;
+            }
+            nav ul {
+                padding-left: 0;
             }
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
+        <header>
+            <a class="logo">ASAKO</a>
+            <nav class="main-menu">
+                <ul class="menu">
+                    <li>Beranda</li>
+                    <li>Trending</li>
+                    <li>Terpopuler</li>
+                </ul>
+            </nav>
+        </header>
     </body>
 </html>
