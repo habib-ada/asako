@@ -24,9 +24,13 @@
 
             }
             .menu li{
+                display: inline-grid;
                 list-style: none;
             }
             header {
+                grid-template-columns: 1fr 8fr;
+                display: grid;
+                align-items: center;
                 padding: 2rem;
                 background-color: #68F5F7;
             }
